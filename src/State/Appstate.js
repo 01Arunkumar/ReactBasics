@@ -1,6 +1,6 @@
 import React from "react";
 import Counter from "./components/Counter";
-import Message from "./components/Message";
+import Message from "./Message";
 class App extends React.Component{
   render(){
     return(
