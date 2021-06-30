@@ -6,7 +6,10 @@ class Counter extends React.Component{
     incrHandler= ()=>{
         this.setState({Counter: this.state.Counter+1})
     };
-    render(){
+    decrHandler=()=>  {
+        this.setState({Counter: this.state.Counter-1})
+    } 
+     render(){
         return<>
          <div className="container mt-5">
          <div className="row">
@@ -17,6 +20,7 @@ class Counter extends React.Component{
         </div>
             <div className="card-body">
           <button className="btn btn-success" onClick={this.incrHandler}>incr</button>
+          <button className="btn btn-danger" onClick={this.decrHandler}>decr</button>
           </div>    
           </div>
           </div>
