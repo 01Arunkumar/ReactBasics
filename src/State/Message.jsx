@@ -21,6 +21,8 @@ class Message extends React.Component{
                             <div className="card-Body">
                                 <button className="btn btn-success mr-4" onClick={this.gmHandler}>gm</button>
                                 <button className="btn btn-warning mr-4" onClick={this.gnHandler}>gn</button>
+                                <hr/>
+                                <h1> hello </h1>
                             </div>
                         </div>
                     </div>
